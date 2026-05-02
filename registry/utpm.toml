@@ -1,0 +1,3 @@
+backends = ["github:typst-community/utpm", "cargo:utpm"]
+description = "A package manager for local and remote Typst packages."
+test = { cmd = "utpm --version", expected = "utpm {{version}}" }
